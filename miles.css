@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alef:wght@400;700&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jomhuria&family=Lalezar&family=Lexend:wght@100..900&family=Playwrite+VN:wght@100..400&display=swap');
+
+
+
+
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #000000;
+}
+header {
+    background-color: #FDC200;
+    height: 55px;
+}
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+li a {
+    margin-right: 20px;
+    color: #000000;
+}
+li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+li a:active {
+    color: rgb(59, 64, 6);
+}
+#contact {
+    margin-right: 25px;
+    background-color: #000000;
+    color: #FDC200;
+    width: 85px;
+    height: 29px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+#contact:hover {
+    color: #000000;
+    background-color: #FDC200;
+    border: solid #000000;
+}
+#contact:active {
+    color: #FDC200;
+    background-color: #000000;
+}
+
+#logo {
+    font-family: "Encode Sans Condensed", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 30px;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+/*..........End Of Header.......*/
+
+
+.hello {
+    color: white;
+    font-family: "Lalezar", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 105px;
+    margin: 0px;
+    height: 90px;
+    padding: 130px 0px 0px 120px;
+}
+.hello a {
+    color: #FDC200;
+}
+.hello a:hover {
+    color: white;
+}
+.circle {
+    background-color: #FDC200;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+.rectangle {
+    background-color: #FDC200;
+    height: 3px;
+    width: 35px;
+}
+.shapes {
+    display: flex;
+    align-items: center;
+}
+.name { 
+    color: white;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+.name0 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 0px 115px;
+}
+.name1 {
+    color: white;
+    font-size: 18px;
+    font-family: "Alef", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2px 0px 0px 130px;
+}
+
+
+
+
+
+/* .shape {
+    width: 50px; 
+    height: 40px; 
+    background-color: #007bff;
+    transition: all 0.9s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shape:hover {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #28a745;
+  }
+  */
+
