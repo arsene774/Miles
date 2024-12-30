@@ -127,9 +127,56 @@ li a:active {
     padding: 2px 0px 0px 130px;
 }
 
+.download {
+    background-color: #CC9C00;
+    border: none;
+    height: 36px;
+    width: 125px;
+    font-size: 15px;
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 14px 0px 0px 190px;;
+    border-radius: 5px;
+}
+.download:hover {
+    background-color: #ffffff;
+    border-radius: 0px;
+    color: #000000;
+}
+.download:active {
+    background-color: #CC9C00;
+    border-radius: 5px;
+    color: white;
+}
 
+/*............End Of Main 1...........*/
 
-
+#who {
+    color: rgb(0, 0, 0);
+    font-size: 250px;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+    opacity: 20%;
+    padding-left: 550px;
+    padding-top: 130px;
+}
+#who-am-i {
+    color: #FDC200;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 115px;
+    position: absolute;
+    top: 605px;
+    left: 585px;
+}
 
 /* .shape {
     width: 50px; 
