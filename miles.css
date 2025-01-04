@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alef:wght@400;700&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jomhuria&family=Lalezar&family=Lexend&family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alef:wght@400;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Exo:ital,wght@0,100..900;1,100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jomhuria&family=Lalezar&family=Lexend&family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap');
 
 
 * {
@@ -267,4 +267,60 @@ li a:active {
     position: absolute;
     top: 1285px;
     left: 475px;
+}
+#services1 {
+    color: white;
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+}
+#servicesLine1 {
+    background-color: #FDC200;
+    height: 5px;
+    width: 283px;
+}
+#servicesLine2 {
+    background-color: #FDC200;
+    height: 5px;
+    width: 158px;
+}
+#servicesLine3 {
+    background-color: #FDC200;
+    height: 5px;
+    width: 290px;
+}
+#servicesLine4 {
+    background-color: #FDC200;
+    height: 5px;
+    width: 163px;
+}
+#servicesP1 {
+    padding-top: 15px;
+    color: #ffffff;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    height: 300px;
+    width: 520px;
+    text-align: justify;
+}
+#services2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#services3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+#services4 {
+    color: #FDC200;
 }
