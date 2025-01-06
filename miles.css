@@ -129,7 +129,7 @@ li a:active {
     background-color: #CC9C00;
     border: none;
     height: 36px;
-    width: 125px;
+    width: 140px;
     font-size: 15px;
     font-family: "Alata", serif;
     font-weight: 400;
@@ -330,24 +330,52 @@ li a:active {
     width: 10px;
     text-align: center;
     text-decoration: none;
-  }
-  .fa-facebook {
-    background: #3B5998;
+}
+#my-projects {
+    color: #FDC200;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 115px;
+    position: absolute;
+    top: 2370px;
+    left: 475px;
+}
+#portfolio {
+    color: rgb(0, 0, 0);
+    font-size: 250px;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+    opacity: 15%;
+    padding-left: 420px;
+    padding-top: 80px;
+}
+#footer {
+    background-color: #2F2D00;
+    height: 140px;
+}
+#footer-text {
     color: white;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  .fa-github {
-    background: #2c4762;
-    color: white;
-  }
-  .fa-whatsapp {
-    background: #ff6600;
-    color: white;
-  }
-  .fa-dribbble {
-    background: #ea4c89;
-    color: white;
-  }
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer-icons {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+}
+#footer-icons a {
+    color: #2F2D00;
+    background-color: #FDC200;
+    border-radius: 4px;
+    text-decoration: none;
+}
