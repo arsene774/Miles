@@ -6,6 +6,7 @@
     <title>Miles</title>
     <link rel="stylesheet" href="miles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./miles.js" defer></script>
 </head>
 <body>
     <header id="navBar">
@@ -37,7 +38,7 @@
             <h1 id="who-am-i">Who am I ?</h1>
         </div>
         <div id="who5">
-            <img src="20240402_160650 copy.jpg" alt="Image-1" id="img1">
+            <img src="./img/20240402_160650 copy.jpg" alt="Image-1" id="img1">
             <div id="who4">
                 <p id="who3">I'm a creative graphic designer with a passion for visual storytelling. I specialize in branding, logo design, print design, blender and even UI/UX. My goal is to create designs that are not only visually stunning but also effe-ctive in achieving my clients' goals. I'm a detail-oriented and collaborative designer who loves working with clients
                     to bring their vision to life.
@@ -89,6 +90,85 @@
         <div>
             <h1 id="portfolio">Portfolio</h1>
             <h1 id="my-projects">My Projects</h1>
+        </div>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/jado-new-year.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/mbera new year.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/j34.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/j73.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/j84.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/j89.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/J65.jpg"
+                            alt=""
+                        />
+                    </li>
+                    <li class="carousel__slide">
+                        <img
+                            class="carousel__image"
+                            src="./img/Am-crochet-New-Year.jpg"
+                            alt=""
+                        />
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+            </button>
+            <div class="carousel__paged-nav">
+                <button class="carousel__indicator current-slide"></button
+                ><button class="carousel__indicator"></button
+                ><button class="carousel__indicator"></button
+                ><button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+
+            </div>
         </div>
     </main>
     <footer id="footer">
