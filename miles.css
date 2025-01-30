@@ -3,15 +3,15 @@
 
 * {
     text-decoration: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
 }
 body {
     background-color: #000000;
 }
 header {
     background-color: #FDC200;
-    height: 55px;
+    height: 3.438rem;
 }
 #navBar {
     display: flex;
@@ -24,31 +24,31 @@ li {
     font-family: "Inria Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem;
 }
 li a {
-    margin-right: 20px;
+    margin-right: 1.25rem;
     color: #000000;
 }
 li a:hover {
     text-decoration: underline;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 0.188rem;
 }
 li a:active {
     color: rgb(59, 64, 6);
 }
 #contact {
-    margin-right: 25px;
+    margin-right: 1.563rem;
     background-color: #000000;
     color: #FDC200;
-    width: 85px;
-    height: 29px;
-    border-radius: 50px;
+    width: 5.313rem;
+    height: 1.813rem;
+    border-radius: 3.125rem;
     border: none;
     font-family: "Inria Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 #contact:hover {
     color: #000000;
@@ -64,9 +64,9 @@ li a:active {
     font-family: "Encode Sans Condensed", serif;
     font-weight: 600;
     font-style: normal;
-    padding-left: 30px;
-    font-size: 35px;
-    padding-bottom: 5px;
+    padding-left: 1.875rem;
+    font-size: 2.188rem;
+    padding-bottom: 0.313rem;
 }
 
 /*..........End Of Header.......*/
@@ -77,10 +77,10 @@ li a:active {
     font-family: "Lalezar", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 105px;
-    margin: 0px;
-    height: 90px;
-    padding: 130px 0px 0px 120px;
+    font-size: 6.563rem;
+    margin: 0rem;
+    height: 5.625rem;
+    padding: 8.125rem 0rem 0rem 7.5rem;
 }
 .hello a {
     color: #FDC200;
@@ -90,14 +90,14 @@ li a:active {
 }
 .circle {
     background-color: #FDC200;
-    height: 15px;
-    width: 15px;
+    height: 0.938rem;
+    width: 0.938rem;
     border-radius: 100%;
 }
 .rectangle {
     background-color: #FDC200;
-    height: 3px;
-    width: 35px;
+    height: 0.188rem;
+    width: 2.188rem;
 }
 .shapes {
     display: flex;
@@ -109,43 +109,43 @@ li a:active {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 .name0 {
     display: flex;
     align-items: center;
-    padding: 20px 0px 0px 115px;
+    padding: 1.25rem 0rem 0rem 7.188rem;
 }
 .name1 {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Alef", serif;
     font-weight: 400;
     font-style: normal;
-    padding: 2px 0px 0px 130px;
+    padding: 0.125rem 0rem 0rem 8.125rem;
 }
 
 .download {
     background-color: #CC9C00;
     border: none;
-    height: 36px;
-    width: 140px;
-    font-size: 15px;
+    height: 2.25rem;
+    width: 8.75rem;
+    font-size: 0.938rem;
     font-family: "Alata", serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-    margin: 14px 0px 0px 190px;;
-    border-radius: 5px;
+    margin: 0.875rem 0rem 0rem 11.875rem;;
+    border-radius: 0.313rem;
 }
 .download:hover {
     background-color: #ffffff;
-    border-radius: 0px;
+    border-radius: 0rem;
     color: #000000;
 }
 .download:active {
     background-color: #CC9C00;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     color: white;
 }
 
@@ -153,14 +153,14 @@ li a:active {
 
 #who {
     color: rgb(0, 0, 0);
-    font-size: 250px;
+    font-size: 15.625rem;
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
-    -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.056rem rgb(255, 255, 255);
     opacity: 20%;
-    padding-left: 550px;
-    padding-top: 130px;
+    padding-left: 34.375rem;
+    padding-top: 8.125rem;
 }
 #who-am-i {
     color: #FDC200;
@@ -170,14 +170,14 @@ li a:active {
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 115px;
+    font-size: 7.188rem;
     position: absolute;
-    top: 605px;
-    left: 585px;
+    top: 37.813rem;
+    left: 36.563rem;
 }
 #img1 {
-    height: 340px;
-    width: 502px;
+    height: 21.25rem;
+    width: 31.375rem;
     object-fit: cover;
 }
 #who3 {
@@ -478,4 +478,33 @@ audio {
 #footer-icons a:active {
     color: #2F2D00;
     background-color: #FDC200;    border-radius: 10px;
+}
+#more-works {
+    color: rgb(0, 0, 0);
+    font-size: 240px;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    opacity: 10%;
+    padding-left: 25rem;
+    padding-top: 80px;
+}
+#other-projects {
+    color: #FDC200;
+    font-style: normal;
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 115px;
+    position: absolute;
+    top: 3380px;
+    left: 500px;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 37px;
+    }
+    
 }
