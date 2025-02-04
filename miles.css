@@ -153,31 +153,28 @@ li a:active {
 
 #who {
     color: rgb(0, 0, 0);
-    font-size: 15.625rem;
+    font-size: 250px;
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
-    -webkit-text-stroke: 0.056rem rgb(255, 255, 255);
+    -webkit-text-stroke: 0.896px rgb(255, 255, 255);
     opacity: 20%;
-    padding-left: 34.375rem;
-    padding-top: 8.125rem;
+    padding-left: 550px;
+    padding-top: 130px;
 }
 #who-am-i {
     color: #FDC200;
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
-    font-family: "Jomhuria", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 7.188rem;
+    font-size: 115px;
     position: absolute;
-    top: 37.813rem;
-    left: 36.563rem;
+    top: 605px;
+    left: 585px;
 }
 #img1 {
-    height: 21.25rem;
-    width: 31.375rem;
+    height: 340px;
+    width: 502px;
     object-fit: cover;
 }
 #who3 {
@@ -587,14 +584,70 @@ audio {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 718px) {
     header {
-        height: 37px;
+        height: 40px;
+    }
+    #logo {
+        padding-left: 20px;
+        font-size: 30px;
+        padding-bottom: 5px;
     }
     .nav {
         display: block;
     }
     #head1 {
         display: none;
+    }
+    .hello {
+        font-size: 65px;
+        padding-left: 60px;
+        padding-top: 80px;
+        height: 49px;
+    }
+    .circle {
+        height:10px;
+        width: 10px;
+    }
+    .rectangle {
+        background-color: #FDC200;
+        height: 2px;
+        width: 24px;
+    }
+    .name { 
+        font-size: 17px;
+    }
+    .name0 {
+        padding-left: 57px;
+    }
+    .name1 {
+        font-size: 12px;
+        padding: 3px 0px 0px 66px;
+    }
+    .download {
+        height: 28px;
+        width: 113px;
+        font-size: 12px;
+        margin: 9px 0px 0px 90px;;
+        border-radius: 3px;
+    }
+    .download:hover {
+        border-radius: 0px;
+    }
+    .download:active {
+        border-radius: 3px;
+    }
+    #who {
+        font-size: 140px;
+        -webkit-text-stroke: 0.896px rgb(255, 255, 255);
+        opacity: 15%;
+        padding-left: 240px;
+        padding-top:38px;
+    }
+    #who-am-i {
+        font-size: 63px;
+        position: absolute;
+        top: 349px;
+        left: 259px;
     }
 }
