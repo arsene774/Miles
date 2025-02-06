@@ -72,6 +72,11 @@ li a:active {
 /*..........End Of Header.......*/
 
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .hello {
     color: white;
     font-family: "Lalezar", serif;
@@ -311,6 +316,13 @@ li a:active {
     align-items: center;
     flex-direction: column;
 }
+.services3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
 #services3 {
     display: flex;
     justify-content: space-between;
@@ -324,7 +336,7 @@ li a:active {
 .fa {
     font-size: 30px;
     padding: 8px;
-    width: 10px;
+    width: 15px;
     text-align: center;
     text-decoration: none;
 }
@@ -435,47 +447,17 @@ audio {
 
 .is-hidden {display: none;}
 
-/*.............................................this is a footer...................................*/
 
-#footer {
-    background-color: #2F2D00;
-    height: 140px;
+.scroll-container {
+    display: none;
 }
-#footer-text {
-    color: white;
-    font-family: "Bitter", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    padding-top: 20px;
-    text-shadow: 2px 2px 8px black ;
+.row {
+    display: none;
 }
-#footer-icons {
-      display: flex;
-      justify-content: center;
-      padding-top: 20px;
-}
-#footer-icons a {
-    color: #2F2D00;
-    background-color: rgb(253, 194, 0);
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 23px;
-    height: 20px;
-    width: 20px;
-    box-shadow: 1px 1px 4px black;
-}
-#footer-icons a:hover {
-    background-color: #f2ffb8;
-    color: #bb9003;
-    stroke: #000000;
-    border-radius: 0px;
-}
-#footer-icons a:active {
-    color: #2F2D00;
-    background-color: #FDC200;    border-radius: 10px;
-}
+
+
+
+
 #more-works {
     color: rgb(0, 0, 0);
     font-size: 240px;
@@ -501,6 +483,52 @@ audio {
 
 
 
+
+
+/*.............................................this is a footer...................................*/
+
+#footer {
+    background-color: #2F2D00;
+    height: 140px;
+}
+#footer-text {
+    color: white;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 8px black ;
+}
+#footer-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#footer-icons a {
+    color: #2F2D00;
+    background-color: rgb(253, 194, 0);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 23px;
+    height: 20px;
+    width: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+#footer-icons a:hover {
+    background-color: #f2ffb8;
+    color: #bb9003;
+    stroke: #000000;
+    border-radius: 0px;
+}
+#footer-icons a:active {
+    color: #2F2D00;
+    background-color: #FDC200;    border-radius: 10px;
+}
+
+
+/*...........................About The Hamberger..............................................................*/
 
 .off-screen-menu {
     max-width: 450px;
@@ -583,7 +611,6 @@ audio {
 
 
 
-
 @media (max-width: 718px) {
     header {
         height: 40px;
@@ -639,7 +666,7 @@ audio {
     }
     #who {
         font-size: 140px;
-        -webkit-text-stroke: 0.896px rgb(255, 255, 255);
+        -webkit-text-stroke: 0.9px rgb(255, 255, 255);
         opacity: 15%;
         padding-left: 240px;
         padding-top:38px;
@@ -648,6 +675,231 @@ audio {
         font-size: 63px;
         position: absolute;
         top: 349px;
-        left: 259px;
+        left: 249px;
     }
+    #img1 {
+        height: 190px;
+        width: 270px;
+        object-fit: cover;
+    }
+    #who3 {
+        width: 300px;
+        font-size: 11px;
+        letter-spacing: 2%;
+        line-height: 130%;
+        padding-top: 10px;
+    }
+    #who5 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    #who-line {
+        width: 300px;
+        height: 5px;
+        margin-top: 9px;
+    }
+    #who6 {
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    #who7 {
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 32px;
+        padding-top: 20px;
+    }
+
+
+
+
+    #services {
+        font-size: 140px;
+        -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+        opacity: 15%;
+        padding-left: 200px;
+        padding-top: 60px;
+    }
+    #my-services {
+        font-size: 70px;
+        position: absolute;
+        top: 736px;
+        left: 235px;
+    }
+    #services1 {
+        font-optical-sizing: auto;
+        font-size: 16px;
+    }
+    #servicesLine1 {
+        height: 3px;
+        width: 165px;
+    }
+    #servicesLine2 {
+        height: 3px;
+        width: 90px;
+    }
+    #servicesLine3 {
+        height: 3px;
+        width: 164px;
+    }
+    #servicesLine4 {
+        height: 3px;
+        width: 93px;
+    }
+    #servicesP1 {
+        padding-top: 9px;
+        font-optical-sizing: auto;
+        font-size: 11px;
+        line-height: 15px;
+        height: 90px;
+        width: 295px;
+        text-align: justify;
+    }
+    #services2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .services3 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #services3 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 100px;
+    }
+    #my-projects {
+        font-size: 70px;
+        position: absolute;
+        top: 1301px;
+        left: 230px;
+    }
+    #portfolio {
+        font-size: 140px;
+        -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+        opacity: 15%;
+        padding-left: 190px;
+        padding-top: 60px;
+    }
+    .carousel {
+        display: none;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .scroll-container {
+        display: block;
+        background-color: #030303;
+        white-space: nowrap;
+        padding: 10px;
+        overflow: auto;
+    }
+
+    .scroll-container img {
+        padding: 10px;
+        height: 500px;
+    }
+    #more-works {
+        font-size: 125px;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        opacity: 10%;
+        padding-left: 200px;
+        padding-top: 10px;
+    }
+    #other-projects {
+        font-size: 70px;
+        position: absolute;
+        top: 1985px;
+        left: 250px;
+    }
+    #footer {
+        height: 80px;
+    }
+    #footer-text {
+        font-size: 23px;
+        padding-top: 10px;
+        text-shadow: 2px 2px 8px black ;
+    }
+    #footer-icons {
+          display: flex;
+          justify-content: center;
+          padding-top: 8px;
+    }
+    #footer-icons a {
+        border-radius: 3px;
+        font-size: 13px;
+        height: 10px;
+        width: 10px;
+        box-shadow: 1px 1px 4px black;
+    }
+    #footer-icons a:hover {
+        border-radius: 0px;
+    }
+    #footer-icons a:active {   
+        border-radius: 3px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+      
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+      
+    .header1 {
+        text-align: center;
+        padding: 32px;
+    }
+      
+    .row {
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+      
+    /* Create two equal columns that sits next to each other */
+    .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+    }
+      
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+      
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+    }
+      
+    .btn:hover {
+        background-color: #ddd;
+    }
+      
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+    
 }
