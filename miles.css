@@ -77,6 +77,17 @@ img {
     max-height: 100%;
 }
 
+.hello3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello2 {
+    width: 600px;
+    padding-top: 65px;
+}
+
+
 .hello {
     color: white;
     font-family: "Lalezar", serif;
@@ -165,7 +176,6 @@ img {
     -webkit-text-stroke: 0.896px rgb(255, 255, 255);
     opacity: 20%;
     padding-left: 550px;
-    padding-top: 130px;
 }
 #who-am-i {
     color: #FDC200;
@@ -174,7 +184,7 @@ img {
     font-style: normal;
     font-size: 115px;
     position: absolute;
-    top: 605px;
+    top: 650px;
     left: 585px;
 }
 #img1 {
@@ -200,7 +210,7 @@ img {
     padding-right: 200px;
 }
 #who-line {
-    background-color: #FDC200;
+    background-color: rgb(253, 194, 0);
     width: 530px;
     height: 10px;
     margin-top: 20px;
@@ -255,7 +265,7 @@ img {
     -webkit-text-stroke: 0.9px rgb(255, 255, 255);
     opacity: 15%;
     padding-left: 420px;
-    padding-top: 80px;
+    padding-top: 48px;
 }
 #my-services {
     color: #FDC200;
@@ -467,7 +477,7 @@ audio {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     opacity: 10%;
     padding-left: 25rem;
-    padding-top: 80px;
+    padding-top: 75px;
 }
 #other-projects {
     color: #FDC200;
@@ -676,7 +686,7 @@ audio {
     #who-am-i {
         font-size: 63px;
         position: absolute;
-        top: 349px;
+        top: 550px;
         left: 249px;
     }
     #img1 {
@@ -730,7 +740,7 @@ audio {
     #my-services {
         font-size: 70px;
         position: absolute;
-        top: 736px;
+        top: 940px;
         left: 235px;
     }
     #services1 {
@@ -783,7 +793,7 @@ audio {
     #my-projects {
         font-size: 70px;
         position: absolute;
-        top: 1301px;
+        top: 1507px;
         left: 230px;
     }
     #portfolio {
@@ -821,7 +831,7 @@ audio {
     #other-projects {
         font-size: 70px;
         position: absolute;
-        top: 1985px;
+        top: 2195px;
         left: 250px;
     }
     #footer {
@@ -902,7 +912,7 @@ audio {
     }
       
     .btn.active {
-        background-color: #666d10;
+        background-color: #d8a500;
         color: white;
     }
     
