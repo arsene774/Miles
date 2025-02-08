@@ -606,7 +606,9 @@ audio {
     transform: translate(-25%, -25%) rotate(-45deg);
 }
 
-
+.header2 {
+    display: none;
+}
 
 
 
@@ -848,12 +850,11 @@ audio {
     #footer-icons a:active {   
         border-radius: 3px;
     }
+    
 
-    * {
+    .header2 {
+        display: block;
         box-sizing: border-box;
-    }
-      
-    body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -861,6 +862,9 @@ audio {
     .header1 {
         text-align: center;
         padding: 32px;
+    }
+    .header2 img {
+        width: 100%;
     }
       
     .row {
@@ -894,11 +898,11 @@ audio {
     }
       
     .btn:hover {
-        background-color: #ddd;
+        background-color: #e0d8af;
     }
       
     .btn.active {
-        background-color: #666;
+        background-color: #666d10;
         color: white;
     }
     
