@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-li {
+#head1 li {
     list-style: none;
     display: inline-block;
     font-family: "Inria Sans", serif;
@@ -27,15 +27,15 @@ li {
     font-style: normal;
     font-size: 1rem;
 }
-li a {
+#head1 li a {
     margin-right: 1.25rem;
     color: #000000;
 }
-li a:hover {
+#head1 li a:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.188rem;
 }
-li a:active {
+#head1 li a:active {
     color: rgb(59, 64, 6);
 }
 #contact {
@@ -559,26 +559,25 @@ audio {
     text-align: center;
     border-bottom-left-radius: 5px;
 }
-.new li {
+.new a {
     font-size: 18px;
     font-family: Verdana;
     font-weight: 500;
     color: white;
-    height: 17%;
+    height: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.new li:hover {
+.new a:hover {
     color: #000000;
     font-weight: 530;
-    text-underline-offset: 6px;
     background-color: #FDC200;
 }
 
-.new li:active {
+.new a:active {
     color: #f1f1f1;
 }
 
@@ -643,7 +642,9 @@ audio {
     display: none;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 
 @media (max-width: 718px) {
@@ -1131,7 +1132,7 @@ audio {
         height: 400px;
     }
 
-    #who2 {
+    #whos2 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1179,5 +1180,8 @@ audio {
         border-radius: 3px;
         background-color: #ffffff;
         color: #FDC200;
+    }
+    .off-screen-menu {
+        top: 41px;
     }
 }

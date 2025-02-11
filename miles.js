@@ -81,11 +81,20 @@ dotsNav.addEventListener("click", e => {
 const hamMenu = document.querySelector('.ham-menu');
 const offScreenMenu = document.querySelector('.off-screen-menu');
 
-hamMenu.addEventListener('click', () => {
+// Open/close menu when clicking hamburger
+hamMenu.addEventListener('click', (event) => {
     hamMenu.classList.toggle('active');
     offScreenMenu.classList.toggle('active');
-})
+    event.stopPropagation(); // Prevent the click from reaching the document
+});
 
+// Close menu when clicking outside
+document.addEventListener('click', (event) => {
+    if (!offScreenMenu.contains(event.target) && !hamMenu.contains(event.target)) {
+        hamMenu.classList.remove('active');
+        offScreenMenu.classList.remove('active');
+    }
+});
 
 
 
