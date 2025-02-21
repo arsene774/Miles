@@ -101,32 +101,31 @@ document.addEventListener('click', (event) => {
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
-// Declare a loop variable
+// Declare a "loop" variable
 var i;
 
 // Full-width images
 function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "40%";  // IE10
-    elements[i].style.flex = "40%";
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
   }
 }
 
 // Two images side by side
 function two() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
+    elements[i].style.flex = "50%";
   }
 }
 
 // Four images side by side
 function four() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "5%";  // IE10
-    elements[i].style.flex = "5%";
+    elements[i].style.flex = "25%";
   }
 }
+
+
 
 // Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader");
@@ -139,3 +138,55 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+// Last carousel about more works
+
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column1");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn1");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    var current = document.querySelector(".btn1.active"); // Get the current active button
+    if (current) {
+      current.classList.remove("active"); // Remove the active class safely
+    }
+    this.classList.add("active"); // Add active class to clicked button
+  });
+}

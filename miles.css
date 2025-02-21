@@ -333,9 +333,10 @@ img {
 }
 #who-line {
     background-color: rgb(253, 194, 0);
-    width: 50vw;
+    width: 100%;
     height: 10px;
     flex: 0 1 auto;
+    margin-top: 10px;
 }
 #who6 {
     color: white;
@@ -443,7 +444,7 @@ img {
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
-    line-height: 20px;
+    line-height: 25px;
     text-align: justify;
     padding-top: 20px;
 }
@@ -605,6 +606,7 @@ audio {
 #more-works {
     color: rgb(0, 0, 0);
     font-size: 235px;
+    line-height: 185px;
     font-family: "Jomhuria", serif;
     font-weight: 400;
     font-style: normal;
@@ -623,7 +625,82 @@ audio {
 }
 
 
-
+.header3 {
+    box-sizing: border-box;
+    /* background-color: #f1f1f1; */
+    padding: 20px;
+    font-family: Arial;
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  #myBtnContainer {
+      display: flex;
+      justify-content: center;
+  }
+  .row1 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+      gap: 15px;
+      justify-content: center;
+      margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row1,
+  .row1 > .column1 {
+      padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column1 {
+      display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  /* Content */
+  .content {
+  /* background-color: white; */
+  padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+      display: block;
+  }
+  
+  /* Style the buttons */
+  .btn1 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #fae6a2;
+  cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn1:hover {
+  background-color: #f0f1e7;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn1.active {
+      background-color: #ce9e01;
+      color: white;
+  }
+  
+  .content h4 {
+      color: #FDC200;
+  }
+  .content p {
+      color: white;
+  }
 
 
 /*.............................................this is a footer...................................*/
@@ -678,6 +755,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 @media (max-width: 980px) {
     #who5 {
         flex-direction: column;
@@ -691,6 +769,10 @@ html {
 }
 
 @media (max-width: 768px) {
+
+    .header3 {
+        display: none;
+    }
     header {
         height: 40px;
     }
@@ -946,34 +1028,36 @@ html {
         font-family: Arial, Helvetica, sans-serif;
     }
       
-    .header1 {
+    #myHeader {
         text-align: center;
         padding: 32px;
     }
     .header2 img {
         width: 100%;
     }
+
+    .header1 {
+        text-align: center;
+        padding: 32px;
+    }
       
     .row {
-        display: -ms-flexbox; /* IE 10 */
         display: flex;
-        -ms-flex-wrap: wrap; /* IE 10 */
         flex-wrap: wrap;
         padding: 0 4px;
     }
       
-    /* Create two equal columns that sits next to each other */
+      /* Create two equal columns that sits next to each other */
     .column {
-        -ms-flex: 50%; /* IE 10 */
         flex: 50%;
         padding: 0 4px;
     }
       
     .column img {
-        margin-top: 8px;
-        vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
     }
-      
     /* Style the buttons */
     .btn {
         border: none;
@@ -1091,11 +1175,11 @@ html {
         padding: 0px;
     } */
 
-    /* #img1 {
+    #img1 {
         border-radius: 100%;
         height: 200px;
         width: 200px;
-    } */
+    }
 
     /* #who3 {
         font-size: 13px;
@@ -1146,6 +1230,7 @@ html {
 
     #servicesP1 {
         font-size: 14px;
+        line-height: 20px;
         /* width: auto;
         height: auto;
         max-width: 350px;
