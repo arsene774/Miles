@@ -1,3 +1,3 @@
 # <ins>Miles portifolio</ins>
 
-This is my portifolio made wit **Pure HTML, CSS and Javascript**.
+This is my portfolio made wit **Pure HTML, CSS and Javascript**.
